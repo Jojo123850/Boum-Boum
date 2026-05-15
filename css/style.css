@@ -446,11 +446,21 @@ footer{
                 padding: 0;
                 .divsec4{
                     padding: 0;
+                    padding-top: 50px;
+                    h2,p{
+                        text-align: justify;
+                        padding: 20px;
+                    }
                     .art03{
                         padding: 0;
                         display: grid;
                         grid-template-columns: 1fr;
                         gap: 40px;
+                          padding-top: 40px;
+                        .art30{
+                          
+                            padding-bottom: 40px;
+                        }
                         img{
                             padding: 0;
                         }
@@ -460,6 +470,7 @@ footer{
                         display: grid;
                         grid-template-columns: 1fr;
                         gap: 40px;
+                          padding-top: 40px;
                     }
 
                 }
@@ -467,6 +478,18 @@ footer{
 
         }
         footer{
+            div{
+                display: grid;
+                place-content: center;
+                img{
+                    display: none;
+                }
+                nav ul{
+                    display: grid;
+                    text-align: center;
+                    padding-left: 0;
+                }
+            }
 
         }
     }

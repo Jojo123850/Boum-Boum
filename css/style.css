@@ -156,6 +156,10 @@ header{
         background-color: var(--color4);
         color: var(--color2);
        }
+       .btn:hover{
+        background-color: var(--color2);
+        color: var(--color1);
+       }
     }
 }
 
@@ -338,8 +342,8 @@ header{
                     padding-right: 15px;  
                 }
                 .submit:hover{
-                    background-color: var(--color3);
-                    color: var(--color5);
+                    background-color: var(--color1);
+          color: var(--color2);
                 }
          }
         display: grid;
@@ -412,6 +416,8 @@ footer{
                     padding: 0;
                     display: grid;
                     grid-template-columns: 1fr;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
                     .div21{
                         padding: 20px;
                     }
@@ -473,6 +479,16 @@ footer{
                           padding-top: 40px;
                     }
 
+                }
+            }
+            #section5{
+                padding: 0;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                .div5{
+                    padding: 20px;
+                    display: grid;
+                    grid-template-columns: 1fr;
                 }
             }
 
